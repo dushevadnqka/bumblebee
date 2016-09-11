@@ -8,5 +8,17 @@
             "email": "georgi.alexandroff@yahoo.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=5.5.9",
+        "dushevadnqka/bumblebee-core": "0.*",
+        "vlucas/phpdotenv": "2.*",
+        "php-di/php-di": "5.*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
 }
