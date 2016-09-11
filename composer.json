@@ -1,0 +1,12 @@
+{
+    "name": "dushevadnqka/bumblebee",
+    "description": "Very lightweight and pure php framework for advanced devs.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Georgi Aleksandrov",
+            "email": "georgi.alexandroff@yahoo.com"
+        }
+    ],
+    "require": {}
+}
