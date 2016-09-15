@@ -25,6 +25,4 @@ $app = require __DIR__.'/../bootstrap/app.php';
 |
 */
 
-var_dump($app);
-
-//$app->run();
+$app->run();
