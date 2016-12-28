@@ -1,9 +1,8 @@
 <?php
-
 /*
- |-----------------------------------------------|
- |Setting application domain and base controller |
- |-----------------------------------------------|
+  |-----------------------------------------------|
+  |Setting application domain and base controller |
+  |-----------------------------------------------|
  */
 return [
     'application_domain' => getenv('APP_DOMAIN'),

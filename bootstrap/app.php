@@ -18,6 +18,6 @@ try {
     throw new Exception($e->getMessage());
 }
 
-$app = \Core\App::getInstance();
+$app = new \Core\App();
 
 return $app;

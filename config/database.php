@@ -1,5 +1,4 @@
 <?php
-
 return [
     'connections' => [
 
@@ -16,4 +15,3 @@ return [
         ],
     ]
 ];
-

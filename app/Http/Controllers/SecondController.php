@@ -9,6 +9,7 @@ namespace App\Http\Controllers;
  */
 class SecondController
 {
+
     public function index()
     {
         echo 'Second Controller index method';
