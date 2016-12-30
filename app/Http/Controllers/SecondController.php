@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Services\TestService;
+
 /**
  * Description of SecondController
  *
@@ -9,6 +11,13 @@ namespace App\Http\Controllers;
  */
 class SecondController
 {
+    protected $testService;
+
+
+    public function __construct(TestService $testService)
+    {
+        $this->testService = $testService;
+    }
 
     public function index()
     {
@@ -18,5 +27,10 @@ class SecondController
     public function another()
     {
         echo 'Second Controller another method';
+    }
+
+    public function third()
+    {
+        echo $this->testService->joro();
     }
 }
